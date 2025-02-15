@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  /*background: linear-gradient(45deg, #e66465, #9198e5);*/
+  background-color: #f48794;
+  font-family: Poppins;
+}
+
+.flashcard-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.flashcard {
+  display: flex;
+  background-color: #F0FFFF;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  
+}
+
+.bottom-of-page {
+  height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(240, 255, 255, 0.4);
+  position: absolute;
+  width: 355px;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.inner-text {
+  padding: 25px;
+  color: white;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.flashcard-buttons{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.previous-card,
+.show-answer,
+.next-card {
+  width: 130px;
+  height: 40px;
+}
